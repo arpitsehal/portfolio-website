@@ -1,0 +1,97 @@
+.certifications-section {
+  padding: 2rem 1rem;
+  background: transparent;
+}
+
+.certifications-section h2 {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.certifications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-card {
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  padding: 1.5rem;
+  min-width: 250px;
+  max-width: 320px;
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  outline: none;
+  text-align: left;
+}
+
+.cert-card:hover, .cert-card:focus {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  /* No background, border, or blur on hover */
+}
+
+.cert-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #93c572;
+  text-align: left !important;
+}
+
+.cert-card p {
+  margin: 0.2rem 0;
+  color: #333;
+  text-align: left !important;
+}
+
+.cert-card a {
+  margin-top: 0.8rem;
+  color: #93c572;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
+  text-align: left !important;
+}
+
+.cert-card a:hover, .cert-card a:focus {
+  color: #7da85a;
+}
+
+@media (max-width: 600px) {
+  .certifications-list {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .cert-card {
+    width: 100%;
+    max-width: 95vw;
+  }
+}
+
+.cert-fade {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.cert-fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+.cert-fade-delay1 { transition-delay: 0.25s; }
+.cert-fade-delay2 { transition-delay: 0.45s; }
+.cert-fade-delay3 { transition-delay: 0.65s; }
+.cert-fade-delay4 { transition-delay: 0.85s; }
+.cert-fade-delay5 { transition-delay: 1.05s; }
+.cert-fade-delay6 { transition-delay: 1.25s; } 

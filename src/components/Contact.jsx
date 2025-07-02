@@ -35,15 +35,11 @@ const Contact = () => {
             <div className="contact-details">
               <div className="detail-item">
                 <i className="fas fa-envelope"></i>
-                <span>your.email@example.com</span>
-              </div>
-              <div className="detail-item">
-                <i className="fas fa-phone"></i>
-                <span>+1 (123) 456-7890</span>
+                <span>2005sehalarpit@gmail.com</span>
               </div>
               <div className="detail-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <span>Your City, Country</span>
+                <span>Haryana, India</span>
               </div>
             </div>
             <div className="social-links">
@@ -54,17 +50,35 @@ const Contact = () => {
             </div>
           </div>
           <div className={animate ? 'contact-form hero-fade hero-fade-in hero-fade-delay2' : 'contact-form hero-fade hero-fade-delay2'}>
-            <iframe 
-              src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" 
-              width="100%" 
-              height="1000" 
-              frameBorder="0" 
-              marginHeight="0" 
-              marginWidth="0"
-              title="Google Form"
-            >
-              Loading…
-            </iframe>
+            <div style={{
+              background: 'rgba(255,255,255,0.25)',
+              backdropFilter: 'blur(10px)',
+              WebkitBackdropFilter: 'blur(10px)',
+              borderRadius: '20px',
+              boxShadow: '0 8px 32px 0 rgba(31,38,135,0.1)',
+              padding: '1rem',
+              width: '100%',
+              maxWidth: '420px',
+              height: 'auto',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
+              <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfs78ggp8XKekkgjYwrc5umcqLUJ_cVaL5QsAp4lg5VmLpGtA/viewform?usp=dialog" 
+                width="100%" 
+                height="420" 
+                frameBorder="0" 
+                marginHeight="0" 
+                marginWidth="0"
+                title="Google Form"
+                style={{ border: 'none', borderRadius: '12px', background: 'transparent' }}
+                allowFullScreen
+              >
+                Loading…
+              </iframe>
+            </div>
           </div>
         </div>
       </div>

@@ -4,18 +4,19 @@ import '../App.css';
 const experiences = [
   {
     id: 1,
-    role: 'Your Position',
-    company: 'Company Name',
-    duration: 'Jan 2020 - Present',
-    description: 'Describe your responsibilities and achievements in this role.'
+    role: 'Software Developer & Engineer Intern',
+    company: 'Yug Yatra Retail (OPC) Pvt. Ltd.',
+    duration: 'Jun 2025 - Aug 2025',
+    description: 'Working on Real World Projects using web technologies and tools like React , ExpressJS , MongoDB , VS code , GitHub '
   },
   {
     id: 2,
-    role: 'Previous Position',
-    company: 'Previous Company',
-    duration: 'Jun 2018 - Dec 2019',
-    description: 'Describe your responsibilities and achievements in this role.'
+    role: 'Open Source Contributor',
+    company: 'Social Summer of Codes',
+    duration: 'Jun 2025 - Present',
+    description: 'Collaborating with team members to troubleshoot issues and implement effective resolutions in open source.'
   },
+  
 ];
 
 const Experience = () => {

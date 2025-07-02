@@ -4,17 +4,17 @@ import '../App.css';
 const education = [
   {
     id: 1,
-    degree: 'Your Degree',
-    institution: 'University Name',
-    year: '2016 - 2020',
-    description: 'Details about your education and achievements.'
+    degree: 'Bachelor of Technology in Computer Science',
+    institution: 'IK Gujral Punjab Technical University',
+    year: '2023 - 2027',
+    description: 'Data Structures, Algorithms, OOPSWeb Development. CGPA: 7.5/10'
   },
   {
     id: 2,
-    degree: 'High School Diploma',
-    institution: 'School Name',
-    year: '2014 - 2016',
-    description: 'Details about your education and achievements.'
+    degree: 'High School',
+    institution: 'New Happy Senior Secondary School',
+    year: '2020 - 2022',
+    description: 'PCM with Computer Science. Percentage: 72%'
   },
 ];
 
