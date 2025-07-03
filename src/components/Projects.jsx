@@ -21,7 +21,7 @@ const projects = [
     title: 'LogViewer & Manager',
     description: 'LogViewer & Manager is a modern, full-stack log management tool built with React and Node.js. It offers real-time monitoring, advanced filtering, a clean responsive UI, and bulk operations. Powered by a fast Vite frontend and a Joi-validated Express backend, it provides intuitive RESTful APIs for creating, retrieving, and managing logs—all in one seamless web interface.',
     tags: ['React', 'Vite', 'Axios', 'CSS3', 'ESLint', 'Node.js', 'Express 5.1.0', 'Joi 17.13.3', 'CORS', 'JSON'],
-    link: 'https://github.com/arpitsehal/LogViewer-Manager'
+    link: 'https://github.com/arpitsehal/Evallo-Task'
   },
 ];
 
