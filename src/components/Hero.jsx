@@ -14,7 +14,7 @@ const Hero = () => {
         <h1 className={animate ? 'hero-fade hero-fade-in' : 'hero-fade'}>Hi, I'm <span className="pistachio-text">Arpit Kumar</span></h1>
         <h2 className={animate ? 'hero-fade hero-fade-in hero-fade-delay1' : 'hero-fade hero-fade-delay1'}>Aspiring Web Developer</h2>
         <p className={animate ? 'hero-fade hero-fade-in hero-fade-delay2' : 'hero-fade hero-fade-delay2'}>I build sleek, responsive web and desktop apps using React, Electron, ExpressJS, and MongoDB. Passionate about clean code, intuitive UI/UX, and solving real-world problems.</p>
-        <a href="https://drive.google.com/file/d/1Hm3kmuo12v8PdcZTkt5vVS8QJAuxiVCp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto" target="_blank" rel="noopener noreferrer">
           <button className={animate ? 'pistachio-bg hero-btn-animate hero-btn-animate-in' : 'pistachio-bg hero-btn-animate'} aria-label="Download CV">Download CV</button>
         </a>
         <div className="social-links" style={{ marginTop: '1.5rem' }} aria-label="Social Media Links">
